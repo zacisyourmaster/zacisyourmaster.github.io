@@ -1,0 +1,78 @@
+#feedback {
+  text-align: center;
+  margin-top: 30px;
+  font-family: sans-serif;
+}
+html {
+  margin-top: 0px;
+}
+@import url(https://fonts.googleapis.com/css?family=Droid+Serif);
+body {
+  font-family: "Droid Serif";
+  text-align: center;
+  background: #060f09;
+  color: antiquewhite;
+}
+header {
+  text-align: center;
+  background-image: url(https://images.squarespace-cdn.com/content/v1/5191776ee4b077a76c76d8e8/1375766653359-E4W9JSSH847AXMUJ8U5L/20130729_JON_LOPEZ_RUCKER0108.jpg);
+  background-size: cover;
+}
+.h1-default {
+  font-size: 40px;
+  word-spacing: 5px;
+  background: rgb(0 0 0 / 50%);
+  left: -10px;
+  right: -20px;
+}
+
+li {
+  display: inline;
+  padding: 0px 30px 0px 30px;
+}
+h2 {
+  font-size: 20px;
+}
+.main {
+  text-align: center;
+  padding: 30px;
+  background: #404040;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+#map {
+  width: 90%;
+  height: 800px;
+  background: orange;
+  margin: auto;
+}
+@media (max-width: 500px) {
+  h1 {
+    font-size: 36px;
+  }
+  li {
+    display: block;
+    padding: 5px;
+  }
+}
+#feedback{
+  background-color: rgb(14, 24, 24);
+  margin: 100px;
+  padding: 1em;
+}
+label {
+  display: block;
+  margin: 0.5rem 0;
+}
+#email{
+  margin-bottom: 1em;
+}
+.form-textarea{
+  margin: 1em;
+}
+fieldset{
+  margin: auto 0;
+}
+textarea{
+  font-family: Arial, Helvetica, sans-serif;
+}
