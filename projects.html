@@ -6,13 +6,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Zach Hub | Portfolio & Projects</title>
+  <link rel="icon" type="image/svg" href="/assets/zach_site.svg">
   <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
   <div id="header-projects">
     <nav>
-      <img src="logo.png" class="logo">
+      <img src="./assets/logo.png" class="logo">
       <ul>
         <li><a href="/">Home</a></li>
         <li><a href="#">Projects</a></li>
@@ -26,14 +27,38 @@
     </p>
   </div>
   <div class="projects">
-    <p class="desc"><a href="https://zacisyourmaster.github.io/pomodoro/"><img src="Screenshot (325).png"
-          alt="Pomodoro">
-        Pomdoro Timer App</a><br><span>This timer app helps you get quick bursts of focus!</span></p>
-    <p class="desc"><a href="https://zacisyourmaster.github.io/PokemonCalc/"><img src="PokemonSite.png"
-          alt="Pokémon Calculator">
-        Pokémon Type Calculator</a><br><span>A Pokémon type calculator to calculate strengths/weaknesses of your Pokémon
-        in battle!
-      </span></p>
+    <section class="project-card">
+      <a href="https://zacisyourmaster.github.io/pomodoro/" class="card-link">
+        <div class="card-image"><img src="./assets/pomodoro.png" alt="Pomodoro"></div>
+        <h3>Pomodoro Timer App</h3>
+        <p class="card-desc">This timer app helps you get quick bursts of focus!</p>
+      </a>
+    </section>
+
+    <section class="project-card">
+      <a href="https://zacisyourmaster.github.io/PokemonCalc/" class="card-link">
+        <div class="card-image"><img src="./assets/PokemonSite.png" alt="Pokémon Calculator"></div>
+        <h3>Pokémon Type Calculator</h3>
+        <p class="card-desc">A Pokémon type calculator to calculate strengths/weaknesses of your Pokémon in battle!</p>
+      </a>
+    </section>
+
+    <section class="project-card">
+      <a href="https://recapify-site.onrender.com" class="card-link">
+        <div class="card-image"><img src="./assets/recapify.png" alt="Recapify"></div>
+        <h3>Recapify</h3>
+        <p class="card-desc">Personal Spotify recap app that sends users a weekly listening report card.</p>
+      </a>
+    </section>
+
+    <section class="project-card">
+      <a href="https://pokele.vercel.app" class="card-link">
+        <div class="card-image"><img src="./assets/pokele.png" alt="Pokele"></div>
+        <h3>Pokéle</h3>
+        <p class="card-desc">A fun Pokémon-themed game like Wordle</p>
+      </a>
+    </section>
   </div>
 </body>
+
 </html>
